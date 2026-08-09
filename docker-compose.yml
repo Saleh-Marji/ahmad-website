@@ -1,0 +1,14 @@
+services:
+  website:
+    image: nginx:alpine
+    container_name: ahmad-website
+    restart: unless-stopped
+    volumes:
+      - ./html:/usr/share/nginx/html:ro
+    networks:
+      - npm_net
+
+networks:
+  npm_net:
+    external: true
+    name: nginx-proxy-manager_default
