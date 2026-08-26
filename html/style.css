@@ -1,7 +1,6 @@
 h1 {
     border: 6px outset rgb(59, 110, 35);
-    text-shadow: 2px 8px 1px rgb(66, 124, 40);
-    text-shadow: 2px -8px 1px rgb(66, 124, 40);
+    text-shadow: 2px 5px 1.5px rgb(105, 216, 54);
 }
 h2 {
     border: 6px outset rgb(59, 110, 35);
@@ -17,7 +16,7 @@ h4 {
 }
 
 pre {
-    border: 3px outset rgb(59, 110, 35);
+    border: 4px outset rgb(59, 110, 35);
     font-size: 1.2rem;
     text-shadow: 2px 2px 3px rgb(66, 124, 40);
     
@@ -29,4 +28,7 @@ pre[id="1"] {
     background-color: rgb(0, 0, 0);
      text-shadow: 2px 2px 4px rgb(43, 73, 27);
 
+}
+body {
+    background-color: rgb(232, 255, 227);
 }
