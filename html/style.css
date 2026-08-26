@@ -1,0 +1,16 @@
+h1 {
+    border: 6px outset rgb(59, 110, 35);
+}
+
+pre {
+    border: 2px outset rgb(59, 110, 35);
+    font-size: 1.25rem;
+    
+
+}
+pre[id="1"] {
+    border: 2px outset rgb(59, 110, 35);
+    font-size: 1.25rem;
+    background-color: rgb(0, 0, 0);
+
+}
