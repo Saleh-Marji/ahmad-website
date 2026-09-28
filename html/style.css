@@ -1,6 +1,8 @@
 h1 {
     border: 6px outset rgb(59, 110, 35);
     text-shadow: 2px 5px 1.5px rgb(105, 216, 54);
+    margin: auto;
+
 }
 h2 {
     border: 6px outset rgb(59, 110, 35);
@@ -27,8 +29,36 @@ pre[id="1"] {
     font-size: 1.2rem;
     background-color: rgb(0, 0, 0);
      text-shadow: 2px 2px 4px rgb(43, 73, 27);
+    
 
 }
 body {
     background-color: rgb(232, 255, 227);
 }
+pre[id="1"]::selection {
+    color: hsl(118, 32%, 36%);
+    background-color: hsl(0, 0%, 0%);
+}
+.navbar ul {
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 8px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a {
+    color:white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+
+}
+.navbar a:hover {
+    background-color: hsl(0, 0%, 10%);
+    
+}
+.navbar li {
+    float: left;
+}
+
